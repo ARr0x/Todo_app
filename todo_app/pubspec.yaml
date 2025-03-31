@@ -1,0 +1,22 @@
+name: todo_app
+description: A new Flutter project for managing ToDo tasks.
+flutter:
+  uses-material-design: true
+
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'  # Spécifie que le projet est compatible avec Dart 3.6.0 et versions ultérieures jusqu'à 4.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  freezed: ^2.4.2
+  json_serializable: ^6.7.1
